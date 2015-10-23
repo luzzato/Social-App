@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="libR1ConnectEngage">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/socialapp/libs/libR1ConnectEngage.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

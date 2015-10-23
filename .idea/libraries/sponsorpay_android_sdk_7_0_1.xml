@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sponsorpay-android-sdk-7.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/socialapp/libs/sponsorpay-android-sdk-7.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

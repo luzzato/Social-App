@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <com.brodev.socialapp.view.imageview.RoundedImageView
+        style="@style/AvatarImageView"
+        android:id="@+id/avatar_imageview"
+        android:layout_width="@dimen/image_view_small_avatar_layout_width"
+        android:layout_height="@dimen/image_view_small_avatar_layout_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        app:border_color="@color/dark_gray"
+        app:border_width="@dimen/avatar_border_width"
+        app:oval="true" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/avatar_imageview"
+        android:animateLayoutChanges="true"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <include layout="@layout/view_chat_progress_bars" />
+
+                <include layout="@layout/view_chat_text_message_opponent" />
+
+                <include layout="@layout/view_chat_attach_message_opponent" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+</RelativeLayout>

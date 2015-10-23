@@ -1,0 +1,29 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+
+    ext.compileSdkVersion = 21
+    ext.buildToolsVersion = '21.0.1'
+    ext.minSdkVersion = 14
+    ext.targetSdkVersion = 21
+    ext.versionName = '0.0.9.5.09062015'
+    ext.versionCode = 30
+
+    ext.prodDebug = true
+
+// Dependencies versions
+    ext.universalImageLoaderVersion = '1.9.1'
+    ext.googlePlayServicesVersion = '5.0.+'
+    ext.croutonVersion = '1.8.4'
+    ext.nineoldandroidsVersion = '2.4.0'
+}
